@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifra de cesar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <h1>Cifra de cesar</h1>
+        
+        <label for="Txt">Texto</label>
+        <input type="text" id="Txt">
+        <br>
+        <label for="Key">Chave</label>
+        <input type="number" id="Key" >
+        <br>
+        <input type="button" value="Criptografar" onclick="Criptografar()">
+        <br>
+        <input type="button" value="Descriptografar" onclick="Descriptografar()">
+        <br>
+        <p>Texto</p>
+        <br>
+        <p id="P">Frase Criptografada...</p>
+        <p id="P2">Frase Descriptografada...</p>
+    </main>
+
+</body>
+<script src="./index.js"></script>
+</html>
